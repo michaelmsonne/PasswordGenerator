@@ -179,7 +179,7 @@ namespace PasswordGenerator
                 }
                 else
                 {
-                    MessageBox.Show(@"´" + aChar + @"´ er ikke et TAL, idiot!", @"Kun tal er tilladt i dette felt", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    MessageBox.Show(@"´" + aChar + @"´ is not a number!", @"Only numbers is allowed in this box!", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                     // ReSharper disable once ReturnValueOfPureMethodIsNotUsed
                     actualdata.Replace(aChar, ' ');
                     // ReSharper disable once ReturnValueOfPureMethodIsNotUsed
@@ -200,7 +200,7 @@ namespace PasswordGenerator
                 }
                 else
                 {
-                    MessageBox.Show(@"´" + aChar + @"´ er ikke et TAL, idiot!", @"Kun tal er tilladt i dette felt", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    MessageBox.Show(@"´" + aChar + @"´ is not a number!", @"Only numbers is allowed in this box!", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                     // ReSharper disable once ReturnValueOfPureMethodIsNotUsed
                     actualdata.Replace(aChar, ' ');
                     // ReSharper disable once ReturnValueOfPureMethodIsNotUsed
